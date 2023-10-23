@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Carovna_polika" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/web_main</item>
+        <item name="colorPrimaryVariant">@color/web_main_var</item>
+        <item name="colorOnPrimary">@color/web_main_bac</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/web_sec</item>
+        <item name="colorSecondaryVariant">@color/web_sec_var</item>
+        <item name="colorOnSecondary">@color/web_sec_bac</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <style name="Theme.Carovna_polika.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+<!--    <style name="Theme.Carovna_polika.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+    <style name="Theme.Carovna_polika.AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <item name="android:textColorPrimary">#10b7a8</item>
+    </style>
+
+    <style name="Theme.Carovna_polika.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
